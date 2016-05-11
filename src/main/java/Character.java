@@ -19,7 +19,7 @@ public class Character {
 	private String name;
 	private String colour;//character的顏色
 	private ArrayList<Character> targets = new ArrayList<Character>();
-	boolean isSelected = false;//求是否被滑鼠壓到得值
+	boolean isSelected = false;//球是否被滑鼠壓到得值
 	
 	private String r,g,b,a;//RGB的字串
 	private float floatR,floatG,floatB,floatA;//記住RGB轉成10進位的值
