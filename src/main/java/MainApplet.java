@@ -84,13 +84,6 @@ public class MainApplet extends PApplet{
 		redraw();
 	}
 	
-	public void mouseDragged() {
-		if (characters.get(index).isSelected) {
-			characters.get(index).setX(mouseX);
-			characters.get(index).setY(mouseY);
-		}
-	}
-	
 	public void mouseReleased() {
 		if (characters.get(index).isSelected) {
 			characters.get(index).isSelected = false;
@@ -113,42 +106,5 @@ public class MainApplet extends PApplet{
 		}
 	}
 	
-	public void keyPressed(KeyEvent e) {
-		if (e.getKeyCode() == 49) {//1
-			characters.clear();
-			file = "main/resources/starwars-episode-1-interactions.json";
-			loadData();
-		}
-		else if (e.getKeyCode() == 50) {//2
-			characters.clear();
-			file = "main/resources/starwars-episode-2-interactions.json";
-			loadData();
-		}
-		else if (e.getKeyCode() == 51) {//3
-			characters.clear();
-			file = "main/resources/starwars-episode-3-interactions.json";
-			loadData();
-		}
-		else if (e.getKeyCode() == 52) {//4
-			characters.clear();
-			file = "main/resources/starwars-episode-4-interactions.json";
-			loadData();
-		}
-		else if (e.getKeyCode() == 53) {//5
-			characters.clear();
-			file = "main/resources/starwars-episode-5-interactions.json";
-			loadData();
-		}
-		else if (e.getKeyCode() == 54) {//6
-			characters.clear();
-			file = "main/resources/starwars-episode-6-interactions.json";
-			loadData();
-		}
-		else if (e.getKeyCode() == 55) {//7
-			characters.clear();
-			file = "main/resources/starwars-episode-7-interactions.json";
-			loadData();
-		}
-	}
 	
 }
