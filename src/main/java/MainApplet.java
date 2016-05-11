@@ -68,11 +68,6 @@ public class MainApplet extends PApplet{
 				y = y + 50;
 			}
 		}
-		/*for (int i = 0; i < links.size(); i++) {
-			int source = links.getJSONObject(i).getInt("source");
-			int target = links.getJSONObject(i).getInt("target");
-			this.characters.get(source).addTarget(this.characters.get(target));
-		}*/
 	}
 	
 	public void mousePressed() {
