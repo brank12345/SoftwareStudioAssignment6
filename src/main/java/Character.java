@@ -22,7 +22,7 @@ public class Character {
 	boolean isSelected = false;//求是否被滑鼠壓到得值
 	
 	private String r,g,b,a;//RGB的字串
-	private float floatR,floatG,floatB,floatA;//RGB轉成10進位的值
+	private float floatR,floatG,floatB,floatA;//記住RGB轉成10進位的值
 	
 	private MainApplet parent;
 
