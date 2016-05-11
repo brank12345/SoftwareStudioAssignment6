@@ -168,6 +168,7 @@ public class MainApplet extends PApplet{
 		redraw();
 	}
 	
+<<<<<<< HEAD
 	public void mouseDragged() {//當滑鼠壓下去時，characters會跟著滑鼠
 		if (characters.get(index).isSelected) {
 			characters.get(index).setX(mouseX);
@@ -176,6 +177,9 @@ public class MainApplet extends PApplet{
 	}
 	
 	public void mouseReleased() {//當滑鼠放下時要做的事情
+=======
+	public void mouseReleased() {
+>>>>>>> 2ef7f031a3b38c50f3ed4d50382d98542fc1212c
 		if (characters.get(index).isSelected) {
 			characters.get(index).isSelected = false;
 			
@@ -203,6 +207,7 @@ public class MainApplet extends PApplet{
 		}
 	}
 	
+<<<<<<< HEAD
 	public void keyPressed(KeyEvent e) {//設定哪一集，設定file的檔名，並起要初始化值
 		if (e.getKeyCode() == 49) {//1
 			characters.clear();
@@ -275,5 +280,7 @@ public class MainApplet extends PApplet{
 			msg = "Star War 7";
 		}
 	}
+=======
+>>>>>>> 2ef7f031a3b38c50f3ed4d50382d98542fc1212c
 	
 }
